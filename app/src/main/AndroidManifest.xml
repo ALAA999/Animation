@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".example2"></activity>
-        <activity android:name=".example" />
         <activity android:name=".FlingAnimationActivity" />
         <activity android:name=".ZoomActivity" />
         <activity android:name=".CircularRevealActivity" />
