@@ -17,17 +17,14 @@ public class FlingAnimationActivity extends Activity {
     TextView info;
     ImageView flingObj;
     FrameLayout mainScreen;
-    int x = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fling_animation);
-
         info = (TextView)findViewById(R.id.info);
         flingObj = (ImageView)findViewById(R.id.flingobject);
         mainScreen = (FrameLayout)findViewById(R.id.mainscreen);
-
         final GestureDetector myGesture = new GestureDetector(this, new MyOnGestureListener());
 
         flingObj.setOnTouchListener(new OnTouchListener(){
