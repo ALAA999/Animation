@@ -17,6 +17,7 @@ public class FlingAnimationActivity extends Activity {
     TextView info;
     ImageView flingObj;
     FrameLayout mainScreen;
+    int x = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
